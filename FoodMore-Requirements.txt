@@ -20,7 +20,7 @@ Originator: Kate
 Comments: [Andrew Price] Added on the 29th January.
 
 REQ-ID: 003
-Description: The thing shall track stock expiries
+Description: The system shall track stock expiries
 Type: Functional
 Rationale: Food items must be distributed to beneficiaries in order of proximity to expiration date (closest first). Failure to track stock expiries results in food waste.
 Originator: Oggy
