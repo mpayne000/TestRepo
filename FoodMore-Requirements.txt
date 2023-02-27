@@ -1,0 +1,206 @@
+REQ-ID:
+Description:
+Type:
+Rationale:
+Originator:
+Comments: [M814-ModuleChair] Copy this template below to add new requirements.
+
+REQ-ID: 001
+Description: Record the food in the stock database including the location and other information
+Type: Functional
+Rationale: The product shall maintain a record of each donated item; including its description, quantity, use-by-date and allergen information.
+Originator: Kate
+Comments: [Andrew Price] Added on the 29th January.
+
+REQ-ID: 002
+Description: Print a food label
+Type: Functional
+Rationale: Food items received need to be labelled with an appropriate use by date, ingredients and allergen information. Food labels can be printed and attached to the food items during the food reception process.
+Originator: Kate
+Comments: [Andrew Price] Added on the 29th January.
+
+REQ-ID: 003
+Description: The product shall track stock expiries
+Type: Functional
+Rationale: Food items must be distributed to beneficiaries in order of proximity to expiration date (closest first). Failure to track stock expiries results in food waste.
+Originator: Amit
+Comments: [James Kano] Added 31/01/2023.
+
+REQ-ID: 004
+Description: The product shall publish (publicise) timely information about available food items
+Type: Functional
+Rationale: Publicising information about available foods makes beneficiaries aware of what food is available. Failure to publicise results in food waste and families not collecting, thus going hungry.
+Originator: Amit
+Comments: [James Kano] Added 31/01/2023.
+
+REQ-ID: 005
+Description: Check information of food items for errors and correct them if any are found.
+Type: Functional
+Rationale: For the safety of beneficiary families, information such as the ingredients list, allergen information, and expiry date must be checked for accuracy. Inaccurate information could result in food allergies or food poisoning.
+Originator: Kate
+Comments: [Eric Huber] Added 2/2/23.
+
+REQ-ID: 006
+Description: Contact beneficiary families with vulnerable individuals to provide information about available food items.
+Type: Functional
+Rationale: FoodMore prioritizes who to contact to provide information about available food items based on beneficiary families with vulnerable individuals, such as young children, older adults, or those with significant care needs. This ensures that vulnerable individuals are not left hungry.
+Originator: Amit
+Comments: [Eric Huber] Added 2/2/23.
+
+REQ-ID:	007
+Description:	Provide a correctable means for donors to supply information about a donation.
+Type:	Functional
+Rationale:	A lot of processing time could be saved if prior to donating food items, donors were able supply the required information about a donation directly to the system. Once the donation is brought to FoodMore it could then quickly be checked for accuracy and any corrections before being accepted and added to the relevant databases/lists.
+Originator:	Kate
+Comments: [Dale Gill] Added 2023-02-03
+
+REQ-ID:	008
+Description:	Maintain updatable records of food items stocked in the food bank and community fridges.
+Type:	Functional
+Rationale:	Keeping up-to-date and accurate records of the currently available food items should be part of the core functionality of the system. The information in these records will be accessed by multiple elements of the system when performing tasks such as accepting donations, printing allergen labels, updating the website, checking stock levels or beneficiaries collecting items.
+Originator:	Jason
+Comments: [Dale Gill] Added 2023-02-03
+
+REQ-ID: 009
+Description: The system shall allow volunteers to view which items 'use by' date expires within the next week.
+Type: Functional
+Rationale: This allows the volunteers to better manage their stock and reduce item spoilage and waste.
+Originator: Amit 
+Comments: [Stuart Parker] Added 05/02/2023
+
+REQ-ID: 010
+Description: The system shall allow donated item information to be electronically uploaded
+Type: Functional
+Rationale: Currently all items have to be entered manually, an upload function would allow information regarding donated items to be added to the system more efficiently. This could be accomplished using a format such as a CSV file.
+Originator: Amit
+Comments: [Stuart Parker] Added 05/02/2023
+
+REQ-ID: 011
+Description: The system shall reject entry of donated items which have less than 5 days of use left.
+Type: Functional
+Rationale: Sufficient time needs to be provided for items to be placed in stock and provided to beneficiaries for consumption.
+Fit Criterion: 
+Originator: Amit
+Comments: [Mark Payne] Added 08/02/2023
+
+REQ-ID: 012
+Description: The system shall prohibit the entry of donations on to the system unless allergen information is entered. 
+Type: Functional
+Rationale: It is essential that allergen information is available to beneficiaries when selecting items, if this information is not provided there could be a risk to individuals health.
+Fit Criterion: 
+Originator: Kate
+Comments: [Mark Payne] Added 08/02/2023
+
+REQ-ID: 013
+Description: The system should not post donation information to the website until the accuracy has been manually checked and approved.
+Type: Functional
+Rationale: Information in the system needs to be accurate and reliable. Given the system will be accepting information from external sources it will need to be checked and approved by Foodmore prior to publication on the website.
+Originator: Kate
+Comments: [James Thompson] Added 08/02/2023
+
+REQ-ID: 014
+Description: The system should have integrations with social media platforms for sharing information.
+Type: Functional
+Rationale: Social media increases publicity, awareness and visibility for Foodmore. An expediated way of posting to social media channels will help to reach stakeholders more quickly.
+Originator: Amit
+Comments: [James Thompson] Added 08/02/2023
+
+REQ-ID: 015
+Description: The product shall allow donors to send information about food donations
+Type: Functional
+Rationale: By allowing donors to send information about food donations it will improve the efficiency of cataloguing donations
+Originator: Amit
+Comments: [Daniel Broadhurst] Added 08/02/2023
+
+REQ-ID: 016
+Description: The product shall publish information to the FoodMore website
+Type: Functional
+Rationale: Any potential beneficiaries will be able to view what food is currently available by browsing the website
+Originator: Kate
+Comments: [Daniel Broadhurst] Added 08/02/2023
+
+REQ-ID: 017
+Description: The system shall record item expiry dates
+Type: Functional
+Rationale: It is useful to quickly see when food items are nearing their use by dates so details of these items can be posted on the website and social media channels. This information can also be used to contact beneficiary families directly with available food items close to their expiry date.
+Originator: Amit
+Comments: [Daniel Earl] Added on the 09th February.
+
+REQ-ID: 018
+Description: The system must link to FoodMore Social Media Channels
+Type: Functional
+Rationale: To improve awareness and publicity the system shall share information regarding food availability and the different types of food available with the wider community on social media.
+Originator: Amit
+Comments: [Daniel Earl] Added on the 09th February.
+
+REQ-ID: 019
+Description: The system shall ask for allergen information for each food item entered.
+Type: Functional
+Rationale: All food items should have allergen information attached so that beneficiary families with dietary requirements are able to use the FoodMore bank.
+Originator: Kate
+Comments: [Gunjan Gurnani] Added 09/02/2023
+
+REQ-ID: 020
+Description: The system shall accept entries for perishable and non-perishable food items.
+Type: Functional
+Rationale: Both types of items are accepted by FoodMore and should be classed separately so volunteers know how to correctly store the item.
+Originator: Jason
+Comments: [Gunjan Gurnani] Added 09/02/2023
+
+REQ-ID: 021
+Description: The product shall allow donors to select the date and time they intend to bring a donation.
+Type: Functional
+Rationale: Kate and Jason prefer to be in the food bank when items are received, particularly if it is a large donation. Knowing this in advance will allow them to plan accordingly.
+Originator: Jason
+Comments: [Rafael Sanchez Cid] 11/02/2023
+
+REQ-ID: 022
+Description: The product shall automatically inform community members of food items that are about to expire.
+Type: Functional
+Rationale: Automatically providing this information to the beneficiary families will ensure that no items expire because they are forgotten in the fridges or storeroom.
+Originator: Amit
+Comments: [Rafael Sanchez Cid] 09/02/2023
+
+REQ-ID: 023
+Description: The system shall accept information about the food items that have been donated.
+Type: Functional
+Rationale: FoodMore staff would like this information to be provided directly by donors to avoid the need to manually input it, thus saving time.
+Originator: Kate
+Comments: [Mathew Campbell] Added 10/02/23
+
+REQ-ID: 024
+Description: The system shall allow the information about donations to be checked for accuracy.
+Type: Functional
+Rationale: The information needs to be accurate before it can be accepted by the system and then published on the food bank's website. This ensures that information published on the website is reliable.	
+Originator: Kate
+Comments: [Mathew Campbell] Added 10/02/23
+
+REQ-ID: 025
+Description: The system must be able to allow users to approve/reject requests to donate food from a food donator.
+Type: Functional
+Rationale: This would allow Kate, Jason and the volunteers to assess whether food donations are suitable before donations are physically brought to FoodMore.
+Originator: Kate
+Comments: [Edward Miles] Added 13/02/2022
+
+REQ-ID: 026
+Description: The system must be able to record and publish: what food is stored where, the expiry date for each item of food and any allergy information to easily accessible media.
+Type: Functional
+Rationale: This would to allow users taking food from FoodMore to select food based on tastes, expiry date and allergy information before arriving at FoodMore, reducing food waste.
+Originator: Amit
+Comments: [Edward Miles] Added 13/02/2022 (recommit 16/02/2022 for TMA evidence)
+
+
+REQ-ID: 027
+Description: The system should alert when food is close to expirty date.
+Type: Functional
+Rationale: This would allow Kate,Jason and the volunteers to have less wastage.
+Originator: Amit
+Comments: [Mohammed Islam] Added 14/02/2022
+
+REQ-ID: 028
+Description: They system should be able to scan items so it can be logged accurately, adding full desciption of food 
+Type: Functional
+Rationale: accurate inforamtion of each item leads to having count of the same items rather than each recorded indiviually.
+Originator: Kate
+Comments: [Mohammed Islam] Added 14/02/2022
+
