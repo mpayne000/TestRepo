@@ -20,10 +20,10 @@ Originator: Kate
 Comments: [Andrew Price] Added on the 29th January.
 
 REQ-ID: 003
-Description: The product shall track stock expiries
+Description: The thing shall track stock expiries
 Type: Functional
 Rationale: Food items must be distributed to beneficiaries in order of proximity to expiration date (closest first). Failure to track stock expiries results in food waste.
-Originator: Amit
+Originator: Oggy
 Comments: [James Kano] Added 31/01/2023.
 
 REQ-ID: 004
